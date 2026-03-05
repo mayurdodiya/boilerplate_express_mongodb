@@ -1,0 +1,22 @@
+
+module.exports = {
+    NO_DATA: (str) => `${str} doesn't exists!`,
+    DATA_EXIST: (str) => `${str} already exists!`,
+    GET_LIST: (str) => `${str} list has been got successfully!`,
+    GET_DATA: (str) => `${str} data has been got successfully!`,
+    ADD_DATA: (str) => `${str} data has been added successfully!`,
+    ADD_DATA_FAILED: (str) => `${str} data has not been added successfully!`,
+    DELETE_PROFILE: (str) => `${str} has been deleted successfully!`,
+    REQUEST_LIMIT: (str, num) => `You cann't send more than ${num} ${str} requests!`,
+    INVALID: (str) => `Invalid ${str}!`,
+    REQUIRED: (str) => `${str} required!`,
+    OTP_SENT: (str) => `OTP sent on your registered ${str}!`,
+    OTP_EXPIRED: (str) => `${str} expired!`,
+    OTP_VERIFY: (str) => `${str} verify successfully!`,
+    FORGOT: (str) => `Your ${str} forgot successfully!`,
+    UNAUTHORIZED: "Unauthorized access!",
+    VALIDATE_COUPON: "You can use this coupon only once!",
+    INTERNAL_SERVER_ERROR: "Something went to wrong, please try again later!",
+    OLD_PWD_WRONG: "Old password is wrong!",
+    LOGIN_SUCCESS: "Login successful!",
+}
